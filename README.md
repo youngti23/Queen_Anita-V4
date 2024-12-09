@@ -1,9 +1,4 @@
-<br> 
-  
-![TextureView_2](https://github.com/CaMnter/EasyCountDownTextureView/raw/master/screenshot/textureview_2.gif) 
-   
-<br>
-<br>
+
     
 ### David Cyril GitHub Total Profile Views:
 <div align="center">
