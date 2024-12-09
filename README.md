@@ -1,10 +1,4 @@
-### This Repo is under construction 
 
-#### DOWNLOAD FILE HERE: https://t.me/davidcyriltech/682
-<br> 
-  
-![TextureView_2](https://github.com/CaMnter/EasyCountDownTextureView/raw/master/screenshot/textureview_2.gif) 
-   
 <br>
 <br>
     
