@@ -1,0 +1,13 @@
+{
+  "name": "Queen Anita V4",
+  "description": "A WhatsApp Bot Created By David Cyril ",
+  "logo": "https://telegra.ph/file/f6230a0cb5b118fa01561.jpg",
+  "keywords": ["bot", "WhatsApp", "JavaScript"],
+  "success_url": "/",
+  "stack": "heroku-24",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
