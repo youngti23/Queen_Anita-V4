@@ -1,5 +1,5 @@
 global.owner = [
-  "2347043759577",
+  "2659)3472812",
   ""
 ]
 global.anitav4 = "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒"
@@ -8,26 +8,26 @@ global.packname = "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒"
 global.author = "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋"
 global.channelname = "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋"
 global.channeljid = "120363315231436175@newsletter"
-global.autoTyping = false;                //make true to enable auto typing
-global.autoRecord = false;                //make true to enable auto recording
+global.autoTyping = true;                //make true to enable auto typing
+global.autoRecord = true;                //make true to enable auto recording
 global.autoViewStatus = true;   // Set to true to automatically read statuses
-global.AUTOSTATUS_REACT = false;   // Set to true to automatically like statuses
-global.autoLikeEmoji = "💚";    // Default emoji for liking statuses
+global.AUTOSTATUS_REACT = true;   // Set to true to automatically like statuses
+global.autoLikeEmoji = "🔥";    // Default emoji for liking statuses
 
-global.LEVELUP = false;
+global.LEVELUP = true;
 
 
-global.ANTIVIEWONCE = false;
+global.ANTIVIEWONCE = true;
 
-global.roles = {
-    1: "Novice",
-    3: "Learner",
-    5: "Apprentice",
-    8: "Magician",
-    10: "Wizard",
-    15: "Sorcerer",
-    20: "Grandmaster",
-    25: "Legend",
+global.roles = {true
+    1: "Novice",true
+    3: "Learner",true
+    5: "Apprentice",true
+    8: "Magician",true
+    10: "Wizard",true
+    15: "Sorcerer",true
+    20: "Grandmaster",true
+    25: "Legend",true
 };
 
 global.sudoUsers = ["2349066528353@s.whatsapp.net", "2348129988915@s.whatsapp.net"]; // Add the JIDs of sudo users
@@ -37,32 +37,32 @@ global.sudoUsers = ["2349066528353@s.whatsapp.net", "2348129988915@s.whatsapp.ne
 global.public = true
 
 
-global.ANTIDELETE = false;  
+global.ANTIDELETE = true;  
 
 global.unavailable = true;     
 //to show your real presence  
-global.available = false;   
+global.available = true;   
 // to show always online  
-global.autoreadmessages = false;   
+global.autoreadmessages = true;   
 ///To always read messages
-global.chatbot = false;
-global.autoreact = false;
+global.chatbot = true;
+global.autoreact = true;
 
-global.WELCOME = false;
+global.WELCOME = true dragon city;
 
-global.prefix = '.';
+global.prefix = '.';true
 
-global.autobio = false;
+global.autobio = true;
 
-global.ANTICALL = false;
+global.ANTICALL = true;
 
-global.antilink = false;
+global.antilink = true;
 
-global.antilinkkick = false;
+global.antilinkkick = true;
 
-global.antilinkwarn = false;
+global.antilinkwarn = true;
 
-global.mess = {
+global.mess = {true
     success: '𝙳𝚘𝚗𝚎',
     admin: '_*❗This Command Can Only Be Used By Group Admins !*_',
     botAdmin: '_*❗This Command Can Only Be Used When Bot Becomes Group Admin !*_',
@@ -75,11 +75,11 @@ global.mess = {
     endLimit: '_*Your Daily Limit Has Been Used Up, The Limit Will Be Reset Every 00:00 AM_*.',
 }
 
-let fs = require('fs')
+let fs = require('fs')true
 let file = require.resolve(__filename)
-fs.watchFile(file, () => {
-fs.unwatchFile(file)
+fs.watchFile(file, () => {true
+fs.unwatchFile(file)true
 console.log(`Update ${__filename}`)
-delete require.cache[file]
-require(file)
+delete require.cache[file]true
+require(file)true
 })
